@@ -34,15 +34,19 @@ const Projects = () => {
                 transition={{duration:1}}
                 className="w-full max-w-xl lg:w-3/4">
                     <h6 className="mb-2 font-semibold">{Project.title}</h6>
+                <div className="p-4">
+                    <a href={Project.url} className="text-purple-500" target="_blank" rel="noopener noreferrer">View Project</a>
+                </div>
                     <p className="mb-4 text-neutral-400">{Project.description}</p>
                         {Project.technologies.map((tech,index)=>(
                             <span key={index} 
                                     className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
                                     >{tech}</span>
                         ))}
-
+                
                     </motion.div>
                 </div>
+                
              ))}        
         </div>
     </div> 

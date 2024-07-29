@@ -45,6 +45,7 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["react","node","CSS"],
+    url:"https://todo-dwc94zne6-gbs-projects-f9cfcfc2.vercel.app/"
   },
   {
     title: "Portfolio Website",
@@ -52,6 +53,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["node.js", "React", "TailwindCSS"],
+    url:"https://portfolio-react-opal-nu.vercel.app/"
   },
   {
     title: "Whatsapp-chat",
@@ -59,6 +61,7 @@ export const PROJECTS = [
     description:
       "A platform for chatting with number without saving the number.",
     technologies: ["node.js","TailwindCSS","React"],
+    url:"https://wc-phi.vercel.app/"
   },
 ];
 
