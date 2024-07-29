@@ -9,7 +9,7 @@ const Contact=()=>{
             transition={{duration:0.5}}
             className="my-10 text-center text-4xl"
             >
-                Get in touch
+            Get in touch..
             </motion.h1>
             <motion.div 
             whileInView={{opacity:1,x:0}}

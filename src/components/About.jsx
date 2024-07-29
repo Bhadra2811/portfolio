@@ -2,7 +2,6 @@
 import about from "../assets/1.avif";
 import {ABOUT_TEXT} from "../constants";
 import{motion} from "framer-motion";
-
 const About = () => {
   return (
     <div className="borfer-b border-neutral-900 pb-4">
@@ -31,7 +30,6 @@ const About = () => {
             </motion.div>
         </div>
     </div>
-        
   );
 };
 
