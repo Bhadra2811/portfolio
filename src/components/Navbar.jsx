@@ -11,6 +11,12 @@ return(
   <div className="flex flex-shrink-0 items-center">
     <img className="mx-2 w-20" src={favicon} alt=""/>
 </div>
+      <button href={"#home"} className="text-purple-700">Home</button>
+      <a href={"#AboutMe"}className="text-purple-700">About</a>
+      <a href={"#Experience"}className="text-purple-700">Experience</a>
+      <a href={"#Technologies"}className="text-purple-700">Technologies</a>
+      <a href={"#Projects"}className="text-purple-700">Projects</a>
+      <a href={"#contact"}className="text-purple-700">Contact</a>
 <div className="m-8 flex items-center justify-center gap-4 text-2xl">
 <a href="https://www.linkedin.com/in/g-bhadra-nair-669a59249" target="_blank" rel="g bhadra nair"><FaLinkedin /></a>
 <a href="https://github.com/Bhadra2811" target="_blank" rel="Bhadra2811"><FaGithub /></a>

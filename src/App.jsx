@@ -5,6 +5,7 @@ import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Project from "./components/Projects";
 import Contact from "./components/contact";
+// import Options from "./components/options/option";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300">
@@ -15,6 +16,7 @@ const App = () => {
       
       <div className="container mx-auto px-8">
         <Navbar />
+        {/* <Options/>  */}
         <Hero />
         <About />
         <Technologies />

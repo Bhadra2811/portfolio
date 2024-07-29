@@ -4,7 +4,7 @@ import {ABOUT_TEXT} from "../constants";
 import{motion} from "framer-motion";
 const About = () => {
   return (
-    <div className="borfer-b border-neutral-900 pb-4">
+    <div id="AboutMe" className="borfer-b border-neutral-900 pb-4">
         <h1 className="my-20 text-center text-4xl">
             About
             <span className='text-neutral-500'>Me</span>
